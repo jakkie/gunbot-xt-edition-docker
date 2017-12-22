@@ -1,10 +1,14 @@
 # gunbot-xt-edition-docker
 Gunbot XT Edition Docker
 
-### Quick Guide
+## Quick Guide
 - To Run Container
 ```
 docker run -d -p 5000:5000 jakkie/gunbot-xt-edition-docker
+```
+- After gunbot is running browse to the url example http://<your-ip>:5000
+```
+http://localhost:5000
 ```
 
 ## DIY Guide
@@ -20,11 +24,7 @@ docker build -t gunbot --build-arg gunbot_version=6.0.2 .
 ### Running the container
 - To run a single instance of gunbot.
 ```
-docker run -d gunbot
-```
-- After gunbot is running browse to the url example http://<your-ip>:5000
-```
-http://localhost:5000
+docker run -d -p 5000:5000 --name gb gunbot
 ```
 - To run multiple instances of gunbot. Just change port numbers
 ```
