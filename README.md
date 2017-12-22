@@ -2,10 +2,13 @@
 Gunbot XT Edition Docker
 
 ### Installing the container
-- To build the container. Just change the gunbot version to the version you want. To see which versions are availible go to https://github.com/GuntharDeNiro/BTCT/releases
-
+- To build the container.
 ```
-docker build -t gunbot --build-arg gunbot_version=7.0.1 .
+docker build -t gunbot .
+```
+- To build with a specific gunbot version. Just change the gunbot version to the version you want. To see which versions are availible go to https://github.com/GuntharDeNiro/BTCT/releases
+```
+docker build -t gunbot --build-arg gunbot_version=6.0.2 .
 ```
 
 ### Running the container
