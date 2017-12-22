@@ -2,13 +2,9 @@
 Gunbot XT Edition Docker
 
 ### Quick Guide
-- Pull the container.
+- To Run Container
 ```
-docker pull jakkie/gunbot-xt-edition-docker
-```
-- Run Container
-```
-docker run -d jakkie/gunbot-xt-edition-docker
+docker run -d -p 5000:5000 jakkie/gunbot-xt-edition-docker
 ```
 
 ## DIY Guide
@@ -17,7 +13,7 @@ docker run -d jakkie/gunbot-xt-edition-docker
 ```
 docker build -t gunbot .
 ```
-- To build with a specific gunbot version. Just change the gunbot version to the version you want. To see which versions are availible go to https://github.com/GuntharDeNiro/BTCT/releases
+- To build with a specific gunbot version. Just change the gunbot version to the version you want. To see which versions are available go to https://github.com/GuntharDeNiro/BTCT/releases
 ```
 docker build -t gunbot --build-arg gunbot_version=6.0.2 .
 ```
@@ -32,8 +28,8 @@ http://localhost:5000
 ```
 - To run multiple instances of gunbot. Just change port numbers
 ```
-docker run -d -p 5000:5000 --name gunbot gunbot
+docker run -d -p 5000:5000 --name gb1 gunbot
 ```
 ```
-docker run -d -p 5001:5000 --name gunbot gunbot
+docker run -d -p 5001:5000 --name gb2 gunbot
 ```
