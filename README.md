@@ -6,7 +6,7 @@ Gunbot XT Edition Docker
 ```
 docker run -d -p 5000:5000 jakkie/gunbot-xt-edition-docker
 ```
-- After gunbot is running browse to the url example http://<your-ip>:5000
+- After gunbot is running browse to the url example http://your-ip:5000
 ```
 http://localhost:5000
 ```
