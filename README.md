@@ -1,6 +1,9 @@
 # gunbot-xt-edition-docker
 Gunbot XT Edition Docker
 
+Current Gunbot version : v7.0.2
+https://github.com/GuntharDeNiro/BTCT/releases
+
 ## Quick Guide
 - To Run Container
 ```
