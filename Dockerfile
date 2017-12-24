@@ -4,7 +4,7 @@ RUN apt-get update
 RUN apt-get install -y unzip wget
 RUN apt-get clean
 
-ARG GUNBOT_VERSION=7.0.1
+ARG GUNBOT_VERSION=7.0.2
 ENV GUNBOT_VERSION ${GUNBOT_VERSION}
 
 RUN mkdir -p /gunbot
