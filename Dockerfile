@@ -1,22 +1,20 @@
 FROM ubuntu:latest
 
-RUN apt-get update
-RUN apt-get install -y unzip wget
-RUN apt-get clean
+RUN apt-get update && apt-get install -y unzip wget && apt-get clean
 
-ARG GUNBOT_VERSION=8.0.3
+ARG GUNBOT_VERSION=9.4.3
 ENV GUNBOT_VERSION ${GUNBOT_VERSION}
 
-RUN mkdir -p /gunbot
-WORKDIR /gunbot
+RUN mkdir -p /app
+WORKDIR /app
 
 COPY install.sh .
 
 RUN ./install.sh
 
-WORKDIR /gunbot/gunbot-xt-edition
+WORKDIR /app/gunbot
 
-VOLUME /gunbot/gunbot-xt-edition/
+VOLUME /app/gunbot/
 
 CMD ./gunthy-gui
 

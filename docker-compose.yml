@@ -3,11 +3,15 @@ version: '3'
 services:
   gunbot-poloniex:
     image: jakkie/gunbot-xt-edition-docker
+    build: .
     container_name: gunbot-poloniex
+    restart: always
     ports:
       - 5001:5000
   gunbot-bittrex:
     image: jakkie/gunbot-xt-edition-docker
+    build: .
     container_name: gunbot-bittrex
+    restart: always
     ports:
       - 5002:5000
