@@ -15,3 +15,10 @@ services:
     restart: always
     ports:
       - 5002:5000
+  gunbot-binance:
+    image: jakkie/gunbot-xt-edition-docker
+    build: .
+    container_name: gunbot-binance
+    restart: always
+    ports:
+      - 5003:5000

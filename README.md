@@ -8,7 +8,7 @@ Gunbot RT Edition Docker
 [![Docker Automated build](https://img.shields.io/docker/automated/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 [![Docker Build Status](https://img.shields.io/docker/build/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 
-Compatible with Gunbot version : v9.4.3
+Compatible with Gunbot version : v9.5.1 build 532
 `https://github.com/GuntharDeNiro/BTCT/releases`
 
 ## Install Docker
@@ -41,10 +41,10 @@ http://localhost:5000
 docker build -t gunbot .
 ```
 
-- To build with a specific gunbot version from version v9.4.3 and later. Just change the gunbot version to the version you want. To see which versions are available go to `https://github.com/GuntharDeNiro/BTCT/releases`
+- To build with a specific gunbot version from version v9.5.1 and later. Just change the gunbot version to the version you want. To see which versions are available go to `https://github.com/GuntharDeNiro/BTCT/releases`
 
 ```bash
-docker build -t gunbot --build-arg gunbot_version=9.4.3 .
+docker build -t gunbot --build-arg gunbot_version=9.5.1 .
 ```
 
 ### Running the container
