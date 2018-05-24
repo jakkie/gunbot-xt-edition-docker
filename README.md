@@ -76,9 +76,15 @@ docker-compose up -d
 ```
 
 Tip jar, support appreciated!
+
 BTC: 1JvpPGe22ViBYNiNrA3nwtg71Jta5vqXAi
+
 BCH: qzndnssc368k5h5ndg6h2d5pewmkycd50c9gxcpre6
+
 LTC: LWRDbKva26cATarA2PoTXTpKVJwCRCzbNC
+
 ETH: 0x13346b1DcF1f923bD357a1C8900C4475342e5255
+
 ZEC: t1YgFzgYdRymwJcwTBaS1harBf1sPakgbZ4
+
 DASH: XanACebtJkEZsfRaMahbnqCU4LPt42e3mE
