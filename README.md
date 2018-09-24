@@ -1,6 +1,6 @@
 # gunbot-xt-edition-docker
 
-Gunbot RT Edition Docker
+Gunbot Edition Docker
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 [![](https://images.microbadger.com/badges/image/jakkie/gunbot-xt-edition-docker.svg)](https://microbadger.com/images/jakkie/gunbot-xt-edition-docker "Get your own image badge on microbadger.com")
@@ -8,7 +8,7 @@ Gunbot RT Edition Docker
 [![Docker Automated build](https://img.shields.io/docker/automated/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 [![Docker Build Status](https://img.shields.io/docker/build/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 
-Compatible with Gunbot version : v9.5.1 build 532
+Compatible with Gunbot version : v10
 `https://github.com/GuntharDeNiro/BTCT/releases`
 
 ## Install Docker
@@ -41,10 +41,10 @@ http://localhost:5000
 docker build -t gunbot .
 ```
 
-- To build with a specific gunbot version from version v9.5.1 and later. Just change the gunbot version to the version you want. To see which versions are available go to `https://github.com/GuntharDeNiro/BTCT/releases`
+- To build with a specific gunbot version from version v10 and later. Just change the gunbot version to the version you want. To see which versions are available go to `https://github.com/GuntharDeNiro/BTCT/releases`
 
 ```bash
-docker build -t gunbot --build-arg gunbot_version=9.5.1 .
+docker build -t gunbot --build-arg gunbot_version=10 .
 ```
 
 ### Running the container
@@ -75,7 +75,7 @@ docker run -d -p 5001:5000 --name gb2 gunbot
 docker-compose up -d
 ```
 
-Tip jar, support appreciated!
+Donations are also very welcomed and appreciated:
 
 BTC: 1JvpPGe22ViBYNiNrA3nwtg71Jta5vqXAi
 
