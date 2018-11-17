@@ -8,7 +8,7 @@ Gunbot Edition Docker
 [![Docker Automated build](https://img.shields.io/docker/automated/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 [![Docker Build Status](https://img.shields.io/docker/build/jakkie/gunbot-xt-edition-docker.svg)](https://hub.docker.com/r/jakkie/gunbot-xt-edition-docker/)
 
-Compatible with Gunbot version : v10.7.2 build 837
+Compatible with Gunbot version : v11.7.5
 `https://github.com/GuntharDeNiro/BTCT/releases`
 
 ## Install Docker
@@ -44,7 +44,7 @@ docker build -t gunbot .
 - To build with a specific gunbot version from version v10 and later. Just change the gunbot version to the version you want. To see which versions are available go to `https://github.com/GuntharDeNiro/BTCT/releases`
 
 ```bash
-docker build -t gunbot --build-arg gunbot_version=1072b837 .
+docker build -t gunbot --build-arg gunbot_version=11starter .
 ```
 
 ### Running the container
