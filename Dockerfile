@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y unzip wget && apt-get clean
 
-ARG GUNBOT_VERSION=11stable
+ARG GUNBOT_VERSION=11b906
 ENV GUNBOT_VERSION ${GUNBOT_VERSION}
 
 RUN mkdir -p /app
